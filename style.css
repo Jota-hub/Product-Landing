@@ -1,0 +1,128 @@
+body {
+    background-color: rgb(238,238,238);
+}
+
+input[type=email] {
+    height: 20px;
+    width: 280px;
+}
+
+input[type=submit] {
+    width: 120px;
+    height: 30px;
+    background-color: gold;
+}
+
+input[type=submit]:hover {
+    background-color: orange;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+nav li a {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 76px;
+}
+
+footer {
+    background-color: rgb(221,221,221);
+    width: 1000px;
+    height: 80px;
+    margin-left: 24%;
+}
+
+footer ul {
+    padding-top: 2.5%;
+    padding-right: 3%;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+footer span {
+    color: gray;
+    text-align: right;
+    margin-left: 73%;
+}
+
+
+img#header-img {
+    width: 300px;
+    height: 30px;
+    margin-top: 1%;
+    margin-left: 2%;
+    
+}
+
+section {
+    margin-top: 6%;
+    margin-left: 25%;
+}
+
+.right {
+    display: inline-block;
+    margin-bottom: 5%;
+}
+
+.left {
+    display: inline-block;
+    line-height: 1px;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+.ivideo {
+    margin-left: 35%;
+}
+
+.prices {
+    margin-top: 5%;
+    margin-left: 23%;
+    margin-bottom: 5%;
+}
+
+.card {
+    height: 300px;
+    width: 300px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    display: inline-block;
+    margin-left: 2%;
+}
+
+.title {
+    background-color: rgb(221,221,221);
+    height: 50px;
+}
+
+.btn {
+    border:none!important;
+    background-color: gold;
+    width: 100px;
+    height: 50px;
+}
+
+.btn:hover {
+    background-color: orange; 
+}
+
+form#form {
+    margin-top: 5%;
+    margin-left: 35%;
+}
